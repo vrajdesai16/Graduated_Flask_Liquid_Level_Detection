@@ -6,9 +6,9 @@ A Flask-based web application that detects the liquid level in transparent conta
 
 ## Project Overview
 
-Traditional liquid level measurement systems rely on physical sensors, which can be expensive, require maintenance, and may not perform well in harsh industrial environments.
+Liquid level monitoring is essential in laboratories and industries for ensuring safety and process efficiency. Traditional sensor-based methods require physical contact and regular maintenance.
 
-This project provides a non-contact, vision-based solution that detects the liquid level in transparent containers using image processing and deep learning techniques.
+This project provides a non-contact, vision-based solution that detects the liquid level in transparent containers using image processing and deep learning techniques. The application processes images through a Flask web interface and estimates the liquid fill percentage accurately.
 
 ---
 
@@ -20,7 +20,7 @@ This project provides a non-contact, vision-based solution that detects the liqu
 - Automatic liquid level estimation
 - Liquid fill percentage calculation
 - Processed output image generation
-- Flask web interface
+- User-friendly Flask web interface
 
 ---
 
@@ -52,47 +52,27 @@ Graduated-Flask-Liquid-Level-Detection/
 
 ---
 
-## Installation
+## Getting Started
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/Graduated_Flask_Liquid_Level_Detection.git
 ```
 
-Move into the project directory
+### Navigate to the project folder
 
 ```bash
 cd Graduated_Flask_Liquid_Level_Detection
 ```
 
-Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-Activate the virtual environment
-
-Windows
-
-```bash
-venv\Scripts\activate
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application
+### Run the application
 
 ```bash
 python app.py
 ```
 
-Open your browser and visit
+### Open your browser
 
 ```
 http://127.0.0.1:5000
@@ -106,8 +86,8 @@ http://127.0.0.1:5000
 2. The image is processed using YOLOv8 and OpenCV.
 3. The container and liquid region are detected.
 4. The liquid height is calculated.
-5. The fill percentage is estimated.
-6. The processed image and results are displayed.
+5. The liquid fill percentage is estimated.
+6. The processed image and detection results are displayed.
 
 ---
 
