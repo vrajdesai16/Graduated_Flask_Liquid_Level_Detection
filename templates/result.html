@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body style="text-align:center">
+
+<h2>Detection Result</h2>
+
+<h3>Original Image</h3>
+<img src="{{ url_for('static', filename=original) }}" width="300">
+
+<h3>Grayscale</h3>
+<img src="{{ url_for('static', filename=gray) }}" width="300">
+
+<h3>Edge Detection</h3>
+<img src="{{ url_for('static', filename=edges) }}" width="300">
+
+<h2>Volume: {{ volume }} ml</h2>
+<h2>Level: {{ percentage }} %</h2>
+
+<br><br>
+<a href="/">🔙 Back</a>
+
+</body>
+</html>

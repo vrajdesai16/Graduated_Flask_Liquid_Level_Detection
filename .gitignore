@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+
+runs/
+dataset/
+
+captured.jpg
+flask_result.jpg
+result.jpg
